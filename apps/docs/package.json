@@ -1,5 +1,5 @@
 {
-  "name": "@acme/docs",
+  "name": "@lemon-test-mono/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,12 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
-    "@acme/core": "*",
+    "@lemon-test-mono/core": "*",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@acme/tsconfig": "*",
+    "@lemon-test-mono/tsconfig": "*",
     "@storybook/addon-actions": "^6.4.18",
     "@storybook/addon-docs": "^6.4.22",
     "@storybook/addon-essentials": "^6.4.18",
