@@ -1,5 +1,11 @@
 # @lemon-test-mono/core
 
+## 1.0.1
+
+### Patch Changes
+
+- fsdfs
+
 ## 1.0.0
 
 ### Major Changes
