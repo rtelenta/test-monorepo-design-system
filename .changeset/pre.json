@@ -1,0 +1,15 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "@lemon-test-mono/docs": "0.0.0",
+    "@lemon-test-mono/core": "0.0.0",
+    "@lemon-test-mono/tsconfig": "0.0.0",
+    "@lemon-test-mono/utils": "0.0.0",
+    "@lemon-test-mono/eslint-config": "0.0.0"
+  },
+  "changesets": [
+    "fresh-panthers-hunt",
+    "shiny-taxis-compete"
+  ]
+}
