@@ -16,9 +16,10 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.22.0",
-    "eslint": "^8.15.0",
     "@lemon-test-mono/eslint-config": "*",
+    "eslint": "^8.15.0",
     "prettier": "^2.5.1",
     "turbo": "latest"
-  }
+  },
+  "version": "0.0.0"
 }
