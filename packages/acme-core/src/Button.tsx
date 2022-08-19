@@ -8,7 +8,7 @@ export function Button(props: ButtonProps) {
   return (
     <button
       style={{
-        background: "red",
+        background: "blue",
       }}
     >
       {props.children}
