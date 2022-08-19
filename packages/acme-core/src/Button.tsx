@@ -1,3 +1,4 @@
+import { toSlug } from "@lemon-test-mono/utils";
 import * as React from "react";
 
 export interface ButtonProps {
@@ -8,9 +9,10 @@ export function Button(props: ButtonProps) {
   return (
     <button
       style={{
-        background: "black",
+        border: "green",
       }}
     >
+      {toSlug("Title large text")}
       {props.children}
     </button>
   );
