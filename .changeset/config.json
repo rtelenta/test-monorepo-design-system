@@ -5,6 +5,5 @@
   "fixed": [],
   "linked": [],
   "access": "public",
-  "updateInternalDependencies": "patch",
-  "ignore": ["@lemon-test-mono/docs"]
+  "updateInternalDependencies": "patch"
 }
