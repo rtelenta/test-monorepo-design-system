@@ -16,8 +16,8 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@lemon-test-mono/eslint-config": "1.0.1",
-    "@lemon-test-mono/tsconfig": "1.0.1",
+    "@lemon-test-mono/eslint-config": "workspace:*",
+    "@lemon-test-mono/tsconfig": "workspace:*",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
     "eslint": "^8.15.0",
@@ -29,6 +29,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@lemon-test-mono/utils": "^1.0.2"
+    "@lemon-test-mono/utils": "workspace:*"
   }
 }

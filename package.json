@@ -1,9 +1,5 @@
 {
   "private": true,
-  "workspaces": [
-    "packages/*",
-    "apps/*"
-  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --no-cache --parallel --continue",
@@ -12,11 +8,11 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=docs^... && changeset publish"
+    "release": "turbo run build --filter=@lemon-test-mono/docs^... && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.22.0",
-    "@lemon-test-mono/eslint-config": "*",
+    "@lemon-test-mono/eslint-config": "workspace:*",
     "eslint": "^8.15.0",
     "prettier": "^2.5.1",
     "turbo": "latest"
