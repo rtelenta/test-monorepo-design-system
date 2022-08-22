@@ -1,5 +1,13 @@
 # @lemon-test-mono/core
 
+## 1.0.4
+
+### Patch Changes
+
+- 8153fe3: change yarn to pnpm
+- Updated dependencies [8153fe3]
+  - @lemon-test-mono/utils@1.0.3
+
 ## 1.0.3
 
 ### Patch Changes

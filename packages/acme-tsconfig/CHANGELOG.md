@@ -1,5 +1,11 @@
 # @lemon-test-mono/tsconfig
 
+## 1.0.2
+
+### Patch Changes
+
+- 8153fe3: change yarn to pnpm
+
 ## 1.0.1
 
 ### Patch Changes
